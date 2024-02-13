@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to my page!</title>
+        <!--The next 3 links are a cool font I like, another font for emojis,
+        and a font for fancy Thai script-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Sans+Thai&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+        <!--This next one is just my stylesheets-->
+        <link rel="stylesheet" href="./styles.css" media="screen and (min-width: 600px)">
+    </head>
+    <body>
+        <header id="pageTop">
+            <h1>Ender's home page</h1>
+        </header>
+        <nav>
+            <a href="">Endeavors</a>
+            <a href="">Fun Projects</a>        
+            <a href="">Changelog</a>
+            <a href="">Dev Notes</a>
+            <a href="">Games</a>
+        </nav>
+        <main>
+            <aside class="aboutMe">
+                <img src="./resources/profile-image.jpg" width="90" height="90" alt="Profile Image">
+                <h3>About me</h3>
+                <p>Hello, I'm Ender. I am a 20-years-old guy from Uruguay who enjoys videogames and likes to learn new things about pretty much any topic.</p>
+                <p>I am currently studying front-end development (hence why this page is static) and am considering studying back-end after that.</p>
+                <p>In terms of games: I like to play Minecraft, and Sky:CotL. I also enjoy many other games, but I would say those are the two I play the most.</p>
+                <p>Between my hobbies, you can find:
+                    <ul>
+                        <li>Reading: I'm currently reading "Murtagh" by Christopher Paolini</li>
+                        <li>Learning the Thai language</li>
+                        <li>Exploring topics I feel interesting, such as astronomy or biology</li>
+                        <li>Drawing, but don't think I'm good at it, because I'm not. <span class="emoji" aria-label="Laugh emoji">😂</span></li>
+                    </ul>
+                </p>
+            </aside>
+            <div class="aboutBox">            
+                <section class="aboutPage">
+                    <h2>
+                        Welcome to my page!
+                    </h2>
+                    <p>
+                        This page aims to showcase all my projects related to web development.<br>
+                        All my projects can be found by clicking either the "Fun Projects" or "Endeavors" option I provided on the navigation tab.
+                    </p>
+                    <p>
+                        If you are unsure on what to see first, click <a href="https://random.page" alt="Visit random page">here</a> and you will be sent to a random page.
+                    </p>
+                    <p>
+                        If you want to know more about each option then keep reading as I will explain what you can expect on each one into detail.
+                    </p>
+                </section>
+                <section class="explainEndeavors">
+                    <h2>Endeavors</h2>
+                    <p>
+                        As you may have guessed by now, I don't really know how to sound professional, and that's why I created the "Endeavors" section.
+                    </p>
+                    <p>
+                        The projects found here were created with the goal of helping me practice for real-life scenarios. They have a more structured approach compared to the ones found in the Fun tab. If you are considering hiring me, this tab is where you may want to look at <span class="emoji" aria-label="Blushed emoji">😅</span>.
+                    </p>
+                </section>
+                <section class="explainFunProjects">
+                    <h2>
+                        Fun Projects
+                    </h2>
+                    <p>
+                        The name is quite straightforward.<br>
+                        Here you'll find a variety of projects and pages I create just for fun or as experiments. Some of the experiments may have turned out better than expected, that's why they are there.
+                    </p>
+                    <p>
+                        In this section, you may also find some projects I have done with friends as we challenge ourselves to create something while setting time limits or utilizing unfamiliar features that we may not be used to.<br>
+                        Overall, this page contains the projects I think they were fun to make.
+                    </p>
+                </section>
+                <section class="nonProjectNav">
+                    <h2>
+                        Non-project Options
+                    </h2>
+                    <p>
+                        You probably can tell that there are more options in the navigation bar, these options doesn't hold any of my projects, but instead serve a whole different purpose:
+                    </p>
+                    <h3>
+                        Changelog
+                    </h3>
+                    <p>
+                        The Changelog option will have all major changes I make to this web page, it is a way for you to see how this page evolves overtime.<br>
+                        While GitHub already maintains a detailed history of changes in the repository, I still wanted to make it a feature of my page.
+                        In my opinion the Changelog section here offers a more accessible view.
+                    </p>
+                    <br><!--This break is here only while I don't style the page-->
+                    <h3>
+                        Dev Notes
+                    </h3>
+                    <p>
+                        The Dev Notes section will serve as a place for occasional reflections and thoughts. They are not necesarily related to the page, but is more of like a weird blog in some weird way.
+                    </p>
+                    <h2>
+                        Games
+                    </h2>
+                    <p>
+                        You've reached this part on the page. Congratulations for reading all that, and thank you; now I know I didn't write all this in vain.<br>
+                        If you read everything without skipping any part, you may have noticed in the "About Me" section that I like video games. Well... I'm not sure yet, but I would like to try coding some games into a web page. That section is more of a personal challenge to myself, and it will probably be empty for quite a while. But if I keep learning, maybe someday there may be something there. (Don't worry, I will let you know if I create something there in the Changelogs)
+                    </p>
+                    <p>
+                        When I say "Coding games into a web page," I mean that I'll start with basic games like Atari Breakout or TicTacToe. Additionally, if I'm successful at coding them and gain confidence in my skills, then it's likely I will try to code my own games.
+                        As mentioned earlier, don't get too excited; it's still a long way off, but having that section on the navigation tab already will push me to make it happen someday. <span class="emoji" aria-label="Laugh Emoji">😂</span> 
+                    </p>
+                </section>
+            </div>
+            <!-- This will remain hidden for a bit until I add the .js file -->
+            <aside class="randomFact">
+                <h3>Daily Random Fact:</h3>
+                <p>Did you know there are between 100 to 200 billion galaxies in the universe (and we think that there are way more than <a href="https://en.wikipedia.org/wiki/Galaxy#:~:text=It%20is%20estimated%20that%20there,of%20parsecs%20(or%20megaparsecs)." target="_blank">that</a>.)</p>
+            </aside>
+        </main>
+        <footer>
+            <a href="#pageTop" class="goUp">
+            <h4>Go back to the top</h4>
+            </a>
+            <h4 class="strayMyLinks">Social Media:</h4>
+            <div class="myLinks">
+                <a href="https://www.facebook.com/profile.php?id=100083132978432&mibextid=JRoKGi" target="_blank"><img src="./resources/facebook.png" class="mediaLink" alt="Facebook link" width="20px" height="20px">Facebook</a>
+                <a href="https://www.linkedin.com/in/galer-ezequiel-guti%C3%A9rrez-l%C3%B3pez-434b7326a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="./resources/linkedin.png" class="mediaLink" alt="Linkedin link" width="20px" height="20px">LinkedIn</a>
+                <a href="https://discord.gg/KbM5HWhRHj" target="_blank"><img src="./resources/discord.png" class="mediaLink" alt="Discord link" width="20px" height="20px">Discord</a>
+                <a href="https://x.com/gegulo2?t=HMVzXPiQfw9G-24R72gQKg&s=09" target="_blank"><img src="./resources/twitter.png" class="mediaLink" alt="X Link" width="20px" height="20px">X</a>
+            </div>
+            <div class="license">
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Ender's home page</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Ender-game-dev">Galer Gutiérrez (Ender)</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+            </div>
+            <div class="attributions">
+                <h4>Attributions:</h4>
+                <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a><!--Facebook icon-->
+                <a href="https://www.flaticon.com/free-icons/tweet" title="tweet icons">Tweet icons created by Freepik - Flaticon</a><!--X icon-->
+                <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a><!--Linkedin icon-->
+                <a href="https://www.flaticon.com/free-icons/discord" title="discord icons">Discord icons created by Freepik - Flaticon</a><!--Discord icon-->
+                <a href="https://www.flaticon.com/free-icons/link" title="link icons">Link icons created by Creaticca Creative Agency - Flaticon</a><!--Link icon...xD-->
+            </div>
+        </footer>
+    </body>
+</html>
