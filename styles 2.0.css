@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Classic";
+}
+
+@font-face {
+    font-family: "Classic";
+    src: url(./fonts/classic-sans/ClearSans.woff2) format("woff2"),
+    url(./fonts/classic-sans/ClearSans.woff) format("woff"),
+    url(./fonts/classic-sans/ClearSans.ttf) format("ttf");
+}
+
+.emoji {
+    font-family: "Noto Color Emoji";
+}
+
+header {
+    display: flex;
+    font-family: "Comfortaa";
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 0;
+    background-color: rgb(255, 20, 0);
+    color: rgb(255, 255, 255);
+}
+
+header h1 {
+    width: 45%;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2vh;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(255, 20, 0);
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    font-family: "Comfortaa";
+    text-decoration: none;
+    padding: 2.5vh;
+    margin-left: 0.4vw;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.aboutBox {
+    z-index: -1;
+    width: 50%;
+    min-width: 674.5;
+    margin-left: 0.5%;
+    padding: 2% 3%;
+    box-shadow: 0px 0px 5px black;
+}
+
+section h2, section h3 {
+    color: red;
+    margin: 2% 0;
+}
+
+.aboutMe {
+    display: block;
+    position: relative;
+    left: 0%;
+    font-size: 1.05em;
+    width: 27%;
+    height: 25%;
+    padding: 2%;
+    margin: 2%;
+    min-width: 337.25px;
+    box-shadow: 0px 0px 10px black;
+    list-style-position: inside;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.aboutMe img {
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.aboutMe h3 {
+    margin: 4% 0;
+    color: red;
+}
+
+.aboutMe p {
+    margin: 2% 0;
+}
+
+.aboutMe ul {
+    margin-left: 5%;
+}
+
+/* This will be visible once the .js file is ready */
+.randomFact {
+    display: none;
+}
+
+/* Welcome to the messiest part of my CSS file :') */
+footer {
+    background-color: rgb(255, 20, 0);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Elements are:
+.goUp
+.strayMyLinks
+.myLinks (a, and img)
+.license (a)
+.attributions (h4, and a)
+good luck pal */
+
+.goUp, .goUp a{
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+}
+
+.myLinks {
+    padding: 10px 0;
+    margin: 0 15px;
+    border-top: solid 2px rgb(255, 255, 255);
+}
+
+.myLinks h4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+.linkContainer a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.linkContainer a span {
+    margin-left: 5px;
+    margin-right: 35px;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+}
+
+.linkContainer a img {
+    vertical-align: middle;
+}
+
+.license, .license a {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.license {
+    margin: 0 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+.attributions a, .attributions {
+    color: rgb(255, 255, 255);
+}
+.attributions {
+    margin: 0 10px;
+    padding: 10px 0;
+}
+
+.attributions h4, .iContainLinks  {
+    text-align: center;
+}
