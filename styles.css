@@ -112,7 +112,7 @@ section h2, section h3 {
 /* Welcome to the messiest part of my CSS file :') */
 footer {
     background-color: rgb(255, 20, 0);
-    height: 45vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
